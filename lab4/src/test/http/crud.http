@@ -1,0 +1,35 @@
+### GET All
+GET http://localhost:8080/api/v1/laptops/
+
+### GET 1
+GET http://localhost:8080/api/v1/laptops/1
+
+
+### DELETE 4
+DELETE http://localhost:8080/api/v1/laptops/4
+
+### Create
+POST http://localhost:8080/api/v1/laptops/
+Content-Type: application/json
+
+{
+  "model": "MacBook Air",
+  "brand": "Apple",
+  "description": "Lightweight and powerful laptop with M1 chip",
+  "ram": 8,
+  "storage": 256,
+  "price": 999.99
+}
+#### Update
+PUT http://localhost:8080/api/v1/laptops/{id}
+Content-Type: application/json
+
+{
+  "id": "4",
+  "model": "MacBook Pro",
+  "brand": "Apple",
+  "description": "Updated version with M1 Pro chip",
+  "ram": 16,
+  "storage": 512,
+  "price": 1999.99
+}
