@@ -1,7 +1,7 @@
 package edu.cs.lab4crud;
 
 /*
-  @author   DovhalKyrylo
+  @author   StepanDemko
   @project   lab6
   @class  RepositoryTest
   @version  1.0.0
